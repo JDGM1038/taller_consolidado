@@ -650,8 +650,8 @@ span {
 
 .contacto h2 {
     display: inline-block;
-    left: 35%;
-    transform: translateY(-35%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .contacto form {

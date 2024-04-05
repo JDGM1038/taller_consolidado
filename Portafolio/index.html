@@ -205,14 +205,15 @@
     <section class="contacto" id="contacto">
         <h2 class="heading">Tengamos <span>contacto!</span></h2>
 
-        <form action="#">
+        <form action="https://formsubmit.co/davidmena206@gmail.com" method="POST">
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="Nombre Completo" required>
+                    <input type="text" name="name" placeholder="Nombre Completo" required>
                     <span class="focus"></span>
                 </div>
+
                 <div class="input-field">
-                    <input type="text" placeholder="Email" required>
+                    <input type="text" name="email" placeholder="Email" required>
                     <span class="focus"></span>
                 </div>
 
@@ -220,18 +221,15 @@
 
             <div class="input-box">
                 <div class="input-field">
-                    <input type="number" placeholder="Telefono" required>
+                    <input type="number" name="phone" placeholder="Telefono" required>
                     <span class="focus"></span>
                 </div>
-                <div class="input-field">
-                    <input type="text" placeholder="Email destino" required>
-                    <span class="focus"></span>
-                </div>
+
 
             </div>
 
             <div class="textarea-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Deja tu mensaje" required></textarea>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Deja tu mensaje" required></textarea>
                 <span class="focus"></span>
             </div>
 
